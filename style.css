@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1275,w_1913,x_284,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/April_Dispatch_Canada_Calgary_Direct_Flight_c4o60y.jpg);
+  background-size: 100vw;
+}
+
+.main {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+}
+
+.main img {
+  height: 70px;
+  width: auto;
+  float: left;
+  padding: 10px 50px;
+}
+
+.main ul{
+  float: left;
+}
+
+.main ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+  color: #01274d;
+  width:350px;
+}
+
+.main ul li a {
+  font-family: Trebuchet MS, arial;
+  display: block;
+  font-size: 20px;
+  color: #011326;
+  padding: 30px 50px;
+  text-decoration: none;
+}
+
+.main ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #2da7b5;
+  border-radius: 0px 0px 4px 4px;
+  
+}
+
+.main ul li:hover ul {
+  display: block;
+}
+
+.main ul li ul li {
+  width: 350px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+.main ul li ul li a {
+  padding: 20px 20px;
+
+}
+
+.main ul li ul li a:hover{
+  background-color: #1a636b;
+  color: #fff;
+}
+
+.welcome {
+  text-align: center;
+  font-family: trebuchet ms;
+  padding-top: 300px;
+ padding-bottom: 300px;
+}
+
+.welcome h1{
+  color:#fff;
+  font-size: 75px;
+}
+
+.welcome p{
+  color:#011326;
+  padding: 20px 150px;
+  font-size: 20px;
+  width: 750px;
+  margin-left:130px;
+}
+
+.facts{
+  background-color: #2da7b5;
+  font-family: trebuchet ms;
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.facts h7{
+  color: #002226;
+  font-size: 36px;
+  padding-bottom: 30px;
+}
+
+.facts ul li{
+  color: #002226;
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+.map{
+  background-color: #002226;
+  display: block;
+  padding-left: 310px;
+  padding-right: 310px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer{
+  background-color: #04adbf;
+  color: white;
+  display: block;
+  text-decoration: none;
+
+}
+
+footer img{
+  width: 200px;
+  padding: 10px 570px;
+}
+
+footer .lists{
+  font-family: trebuchet ms;
+  color: white;
+  display: flex;
+  margin-left: 130px;
+}
+
+footer .lists h6 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+footer .lists ul li{
+  list-style: none;
+  width: 180px;
+}
+
+footer .lists ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+footer .list1 {
+  padding: 30px 100px;
+}
+
+footer .list2 {
+  padding: 30px 100px;
+}
+
+footer .list3 {
+  padding: 30px 100px;
+}
+
